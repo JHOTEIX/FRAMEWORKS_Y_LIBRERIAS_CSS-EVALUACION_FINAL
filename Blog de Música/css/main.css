@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:rgb(51, 51, 51);
+}
+header{
+    background: rgba(0, 0, 0, 0.4);
+}
+.logo img{
+    width: 100%;
+}
+.redes-sociales{
+    text-align: end;
+}
+.redes-sociales img{
+    width: 40px;
+    margin-right: 7px;
+}
+.nav-var{
+    margin-top: 20px;
+}
+nav ul li{
+    padding: 0 3vw;
+}
+section{
+    margin-top: 40px;
+    background: rgba(0, 0, 0, 0.4);
+}
+p{
+    text-indent: 0.5cm;
+}
+.comment{
+    width: 50px;
+}
+.article{
+    margin: 20px 0;
+}
+.icon-search{
+    width: 10%;
+}
