@@ -5,33 +5,58 @@
 body{
     background:rgb(51, 51, 51);
 }
+h2{
+    color: white;
+}
 header{
     background: rgba(0, 0, 0, 0.4);
 }
-.logo img{
+.minh{
+    height: 30vh;
+}
+.logo{
     width: 100%;
 }
-.redes-sociales{
-    text-align: end;
+.redess{
+    text-align: right;
+    margin-top: 110px;
 }
-.redes-sociales img{
+.redess a img{
     width: 40px;
-    margin-right: 7px;
 }
-.nav-var{
-    margin-top: 20px;
+.redess a{
+    opacity: 0.7;
 }
-nav ul li{
-    padding: 0 3vw;
+.redess a:hover{
+    opacity: 1;
+}
+.redess img{
+    width: 15vh;
+}
+.redes img:hover{
+    opacity: 0.9;
+}
+.nav .menu{
+    background-color: darkred;
+    padding: 20px;
+}
+.nav a{
+    padding: 20px;
+    text-decoration: none;
+}
+.nav .menu:hover{
+    background-color: rgb(121, 84, 84);
 }
 section{
     margin-top: 40px;
     background: rgba(0, 0, 0, 0.4);
 }
 p{
+    display: block;
     text-indent: 0.5cm;
     color: white;
 }
+
 .comment{
     width: 50px;
 }
@@ -42,6 +67,52 @@ p{
     width: 10%;
 }
 .actor{
-    text-align: center;
     margin-bottom: 20px;
+    margin-top: 4vh;
+}
+.textarea{
+    border-radius: 50px;
+    min-height: 50px;
+    max-height: 50px;
+}
+.search{
+    background-image: url(../img/search.png);
+    background-repeat: no-repeat;
+    text-indent: 0.8cm;
+    width: 80%;
+    background-size: 25px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.songs{
+    margin-top: 20px;
+}
+.songs p{
+    display: block;
+    text-indent: 0.5cm;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    border-bottom: 1px solid rgb(68, 67, 67);
+    width: 80%;
+    
+}
+@media screen and (max-width:992px){
+    .logo{
+        width:30%;
+    }
+    .redess{
+        margin-top: 2vh;
+        text-align: center;
+        margin-top:20px;
+    }   
+    .minh{
+        height: 60vh;
+    }
+    .menu{
+        border-bottom: 1px solid rgb(92, 60, 60);
+    }
+    .actor img{
+        width: 80%;
+    }
 }
