@@ -27,6 +27,9 @@ input[type="text"]{
     margin-top: 20px;
     margin-left: 10px;
 }
+::placeholder{
+    color:#555;
+}
 li{
     border:1px solid lightgrey;;
     padding: 15px;
