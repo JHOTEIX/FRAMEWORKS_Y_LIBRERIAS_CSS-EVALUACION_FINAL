@@ -42,12 +42,26 @@ li a, span, p{
 .historial{
     margin-bottom: 20px;
 }
+.article{
+    margin-top: 20px;
+}
+.separador{
+    margin-top:20px;
+}
 .textarea{
     width: 100%;
-    border-radius: 50px;
-    min-height: 60px;
-    max-height: 60px;
+    border-radius: 10px;
+    min-height: 100px;
+    max-height: 100px;
 }
 .comment{
     width: 70%;
+}
+.comentarios{
+    margin-top:15px;
+    border: 1px solid #ddd;
+    background: rgba(100,100, 100, 0.7);
+}
+input[type=submit]{
+    padding: 10px;
 }
