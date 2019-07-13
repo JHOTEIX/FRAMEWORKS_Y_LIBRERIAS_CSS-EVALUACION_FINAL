@@ -32,6 +32,13 @@ li{
     padding: 15px;
     list-style: none;
 }
+li:hover{
+    background: rgba(189, 183, 107, 0.6);
+    color:black;
+}
+li a:hover{
+    color: black;
+}
 li a, span, p{
     color: darkkhaki;
 }
