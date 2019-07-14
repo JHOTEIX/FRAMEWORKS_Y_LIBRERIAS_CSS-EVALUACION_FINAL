@@ -34,4 +34,20 @@ header{
     width:100%;
     margin-bottom: 5px;
 }
-
+.autor{
+    border-left: 1px solid #bf360c;
+}
+.article,
+.autor{
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+article p{
+    text-indent: 30px;
+}
+.chip i{
+     margin-top: 3px; 
+}
+input[type=submit]{
+    color:white;
+}
