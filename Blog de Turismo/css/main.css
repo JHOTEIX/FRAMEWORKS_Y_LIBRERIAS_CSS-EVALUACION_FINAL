@@ -1,0 +1,37 @@
+body{
+    background: url(../img/bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+header{
+    background: rgba(0, 0, 0, 0.2);
+}
+.logo{
+    width:100%;
+}
+.menu a{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.slogan{
+    height:100px;
+    font-family: "Kaushan Script", Helvetica, sans-serif;
+    font-size: 40px;
+    color: white
+}
+.redes a{
+    opacity: 0.8;
+}
+.redes a:hover{
+    opacity: 1;
+}
+.redes img{
+    width: 50px;
+}
+.galery .g1 img,
+.galery .g2 img,
+.galery .g3 img{
+    width:100%;
+    margin-bottom: 5px;
+}
+
